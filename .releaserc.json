@@ -1,0 +1,48 @@
+{
+	"branches": ["main"],
+	"tagFormat": "frontend@${version}",
+	"parserOpts": {
+		"noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+	},
+	"plugins": [
+		[
+			"@semantic-release/commit-analyzer",
+			{
+				"preset": "angular",
+				"releaseRules": [
+					{ "type": "perf", "release": "patch" },
+					{ "type": "docs", "release": "patch" }
+				]
+			}
+		],
+		[
+			"@semantic-release/release-notes-generator",
+			{
+				"preset": "angular",
+				"presetConfig": {
+					"types": [
+						{ "type": "feat", "section": "Features" },
+						{ "type": "fix", "section": "Bug Fixes" },
+						{ "type": "perf", "section": "Performance Improvements" },
+						{ "type": "docs", "section": "Documentation" }
+					]
+				}
+			}
+		],
+		"@semantic-release/changelog",
+		"@semantic-release/npm",
+		[
+			"@semantic-release/github",
+			{
+				"releasedLabels": ["released"]
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"assets": ["CHANGELOG.md", "package.json"],
+				"message": "chore(release): frontend v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+			}
+		]
+	]
+}
