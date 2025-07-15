@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/guilleps/hola/compare/frontend-v1.0.1...frontend-v1.1.0) (2025-07-15)
+
+
+### Features
+
+* new font for pipeline component ([d8d05ea](https://github.com/guilleps/hola/commit/d8d05eacea401c66f4a19bfbacc00b149e70e936))
+
 ## [1.0.1](https://github.com/guilleps/hola/compare/frontend-v1.0.0...frontend-v1.0.1) (2025-07-15)
 
 
