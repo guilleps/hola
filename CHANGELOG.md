@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/guilleps/hola/compare/frontend-v1.0.0...frontend-v1.0.1) (2025-07-15)
+
+
+### Bug Fixes
+
+* modify html ([8b3b157](https://github.com/guilleps/hola/commit/8b3b1574e074e134a50d7d507bfa1105faf7f04d))
+
 # 1.0.0 (2025-07-15)
 
 
