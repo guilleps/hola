@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/guilleps/hola/compare/frontend-v1.0.0...frontend-v1.1.0) (2025-07-15)
+
+
+### Features
+
+* 🎸 dvdsvd ([4bf6c75](https://github.com/guilleps/hola/commit/4bf6c750ca1f3ecdb7542aca82ac96bed6b63698))
+
 # 1.0.0 (2025-07-15)
 
 
